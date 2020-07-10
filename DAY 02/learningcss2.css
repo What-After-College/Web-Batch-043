@@ -1,0 +1,20 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+
+
+
+/* this is a comment. */
+
+.div1{
+    background-image: url("https://sc01.alicdn.com/kf/Hf0601fd0d15b43b3b31f16b61c45fe61N.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
