@@ -1,0 +1,74 @@
+/* body{
+    background-color: yellowgreen;
+    background-image: url("image/hammer.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right; 
+    background: yellowgreen no-repeat fixed;
+} */
+
+/* #image{
+    border-top-style: dotted;
+    border-style: solid;
+    border-bottom-style: dashed;
+    border-width: 15px;
+    border-color: black;
+    border-radius: 25px; 
+    border: 5px solid red; 
+}*/
+
+/* 
+.heading{
+    border: 5px solid black;
+}
+
+.heading1{
+    padding: 15px;
+    padding-top: 15px;
+    padding: 15px 5px;
+    padding: 15px 20px 25px 30px;
+    margin: 20px;
+}
+
+.heading2{
+    margin: 25px;
+} */
+/* 
+.div1{
+    border: 5px solid black;
+    width: 750px;
+    height: 110px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-width: 880px;
+} */
+/* 
+.text{
+    color: red;
+    text-align: center;
+    width: 880px;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading{
+    text-decoration: line-through;
+    color: black;
+    text-shadow: 2px 2px red;
+    text-transform: capitalize;
+} 
+p{
+    text-indent: 50px;
+} */
+
+/* .heading{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18px;
+} */
+
+
