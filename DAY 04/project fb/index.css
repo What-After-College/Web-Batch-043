@@ -1,118 +1,130 @@
-*{
-    margin: 0;
-}
-.top{
-    background-color: #3b5998;
-    font-size: 16px;
-    height: 80px;
-}
-.logo{
-    font-family: 'Rubik', sans-serif;
-    color: #fff;
-    font-size: 48px;
-    float: left;
-    margin-left: 13%;
-    margin-top: 0px;
-    letter-spacing: 5px;
+@media screen and (min-width: 540px){
+    .top{
+        background-color: red;
+        font-size: 16px;
+        height: 80px;
+    }
 }
 
-.credential{
-    margin: 0px 10px;
-    margin-right: 15%;
-    color: #fff;
-    float: right;
-}
 
-a{
-    color: #fff;
-    text-decoration: none;
-}
-
-button{
-    background-color: #29487d;
-    color: #fff;
-    border: none;
-}
-
-.bottom{
-    height: 880px;
-    background: linear-gradient(white,#D3D8E8);
-}
-
-.left{
-    height: 650px;
-    float: left;
-    width: 55%;
-}
-
-img{
-    float: right;
-    width: 540px;
-    height: auto;
-    margin-top: 10%;
-}
-
-.left > h1{
-    width: 540px;
-    float: right;
-    margin: 0px;
-    margin-top: 5%;
-    font-size: 28px;
-}
-
-.right{
-    height: 650px;
-    float: right;
-    width: 45%;
-}
-.right> h1{
-    font-size: 36px;
-    margin-left: 5px;
-}
-
-.right > h3{
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 5px;
-    font-weight: normal;
-}
-.form{
-
-}
-
-.right input{
-    padding: 8px 10px;
-    font-size: 18px;
-    border-color: #bdc7d8;
-    border-radius: 5px;
-    width: 377px;
-    background-color: #fff;
-    border: 1px solid #ccd0d5;
-    margin: 5px;
-}
-
-#fname{
-    width: 180px;
-    margin-top: 20px;
-}
-#lname{
-    width: 160px;
-    margin-top: 20px;
-}
-
-.form div{
-    width: 300px;
-    text-align: justify;
-}
-
-.form button{
-    font-size: 19px;
-    font-family: 'Freight Sans Bold', Helvetica,Arial,sans-serif !important;
-    font-weight: bold;
-    min-width: 194px;
-    padding: 7px 20px;
-    text-align: center;
-    background: linear-gradient(#67ae55, #578843);
-    background-color: #69a74e;
-    cursor: pointer;
+@media screen and (min-width: 970px){
+    *{
+        margin: 0;
+    }
+    .top{
+        background-color: #3b5998;
+        font-size: 16px;
+        height: 80px;
+    }
+    .logo{
+        font-family: 'Rubik', sans-serif;
+        color: #fff;
+        font-size: 48px;
+        float: left;
+        margin-left: 13%;
+        margin-top: 0px;
+        letter-spacing: 5px;
+    }
+    
+    .credential{
+        margin: 0px 10px;
+        margin-right: 15%;
+        color: #fff;
+        float: right;
+    }
+    
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    button{
+        background-color: #29487d;
+        color: #fff;
+        border: none;
+    }
+    
+    .bottom{
+        height: 880px;
+        background: linear-gradient(white,#D3D8E8);
+    }
+    
+    .left{
+        height: 650px;
+        float: left;
+        width: 55%;
+    }
+    
+    img{
+        float: right;
+        width: 540px;
+        height: auto;
+        margin-top: 10%;
+    }
+    
+    .left > h1{
+        width: 540px;
+        float: right;
+        margin: 0px;
+        margin-top: 5%;
+        font-size: 28px;
+    }
+    
+    .right{
+        height: 650px;
+        float: right;
+        width: 45%;
+    }
+    .right> h1{
+        font-size: 36px;
+        margin-left: 5px;
+    }
+    
+    .right > h3{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 5px;
+        font-weight: normal;
+    }
+    .form{
+    
+    }
+    
+    .right input{
+        padding: 8px 10px;
+        font-size: 18px;
+        border-color: #bdc7d8;
+        border-radius: 5px;
+        width: 377px;
+        background-color: #fff;
+        border: 1px solid #ccd0d5;
+        margin: 5px;
+    }
+    
+    #fname{
+        width: 180px;
+        margin-top: 20px;
+    }
+    #lname{
+        width: 160px;
+        margin-top: 20px;
+    }
+    
+    .form div{
+        width: 300px;
+        text-align: justify;
+    }
+    
+    .form button{
+        font-size: 19px;
+        font-family: 'Freight Sans Bold', Helvetica,Arial,sans-serif !important;
+        font-weight: bold;
+        min-width: 194px;
+        padding: 7px 20px;
+        text-align: center;
+        background: linear-gradient(#67ae55, #578843);
+        background-color: #69a74e;
+        cursor: pointer;
+    }
+    
 }

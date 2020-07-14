@@ -1,0 +1,68 @@
+/* a:link {
+    color: chartreuse;
+}
+a:visited {
+    color: red;
+}
+a:hover{
+    color: aquamarine;
+    text-decoration: none;
+}
+a:active{
+    color: violet;
+}
+a{
+    text-decoration: none;
+} */
+
+/* ul{
+    list-style-type: upper-roman;
+} */
+
+/* table, th , td{
+    border: 3px solid black;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 25%;
+} */
+
+/* .division p{
+    color: red;
+} */
+/* div > p{
+    color: red;
+} */
+
+/* div + p{
+    color: blue;
+} */
+/* div ~ p{
+    color: blue;
+} */
+.flex-container{
+    display: flex;
+    background-color: black;
+    height: 540px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.flex-container > div{
+    width: 240px;
+    height: 160px;
+    background-color: red;
+    margin: 10px;
+    align-self: center;
+}
+
+
+
+
+
+
+
