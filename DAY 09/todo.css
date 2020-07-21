@@ -56,6 +56,7 @@ input{
 
 ul{
     margin-top: 20px;
+    text-align: left;
 }
 
 li{
@@ -74,4 +75,16 @@ li{
 
 li:hover{
     background: #76cfe0;
+}
+
+li button{
+    font-weight: 800;
+    background: none;
+    border: none;
+    float: right;
+    color: #025f70;
+}
+
+.delete{
+    display: none;
 }
