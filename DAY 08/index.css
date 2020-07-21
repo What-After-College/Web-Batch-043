@@ -1,0 +1,44 @@
+/* how our main box is in center*/
+
+html,body {
+    min-height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid{
+    flex: 1 0 auto;
+}
+
+.main-box{
+    margin-top: 5px;
+    width: 420px;
+    box-shadow: 1px 1px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-heart{
+    color: red;
+}
+
+footer{
+    margin-top: 20px;
+    flex-shrink: 0;
+    padding: 20px 0 20px 0;
+    color: #ffffff;
+    background-color: rgba(34,39,39,0.9);
+}
+
+.box{
+    font-family: 'Permanent Marker',cursive;
+    background-color: #ebebeb;
+    font-size: 500%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #585858;
+}

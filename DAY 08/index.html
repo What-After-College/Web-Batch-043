@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://bootswatch.com/3/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="text-center">TIC-TAC-TOE</h1>
+        <div class="main-box">
+            <ul class="nav nav-pills">
+                <li class="active"><a>Player 1 <span class="badge" id="player1Score">0</span></a></li>
+                <li class="pull-right active"><a>Player 2 <span class="badge" id="player2Score">0</span></a></li>
+            </ul>
+            <div class="rows" id="board"></div>
+            <div class="controls btn-group btn-group-justified">
+                <a id="clear" class="btn btn-default">Clear</a>
+                <a id="reset" class="btn btn-warning">Reset</a>
+            </div>
+        </div>
+        <div id="alert-box" class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            Player X
+            <strong>Won!</strong>
+        </div>
+    </div>
+
+    
+    <footer class="text-center">
+        Designed and <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <b>Akanshu.</b>
+    </footer>
+
+
+</body>
+</html>
