@@ -1,0 +1,12 @@
+update = {
+    players : {
+        players1 : {
+            name: "rohit sharma",
+            score: "170"
+        },
+        players2 : {
+            name: "shikhar dhawan",
+            score: "70"
+        }
+    }
+};

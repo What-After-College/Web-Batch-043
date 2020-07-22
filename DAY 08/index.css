@@ -17,8 +17,6 @@ body{
     margin-top: 5px;
     width: 420px;
     box-shadow: 1px 1px 20px;
-    display: flex;
-    flex-direction: column;
 }
 
 .fa-heart{

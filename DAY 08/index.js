@@ -1,4 +1,4 @@
-/* how our main box is in center*/
+
 
 const state = {
     scores : {
